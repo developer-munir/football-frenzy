@@ -7,11 +7,21 @@
     background-color: #ffffff;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
   }
   .match-news a {
     padding: 10px;
     border: 2px solid;
 }
+.updates-links{
+flex-direction: row;
+
+}
+.updates-links a{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
   .match-blogs{
     grid-template-columns: repeat(2,1fr);
   }
