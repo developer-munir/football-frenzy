@@ -1,0 +1,24 @@
+
+.blogs{
+    padding: 5%;
+}
+.flag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flag img{
+    width: 100%;
+}
+.flag span{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.team-name p{
+   font-size: 10px;
+   text-align: center;
+}
+.team-name h6{
+    font-size: 1em;
+    text-align: center;
+}

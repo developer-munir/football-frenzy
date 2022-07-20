@@ -1,7 +1,7 @@
 @media only screen and (min-width: 689px) and (max-width: 992px) {
   .main-section {
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .match-news {
     background-color: #ffffff;
