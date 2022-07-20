@@ -13,25 +13,25 @@
   .match-news a {
     padding: 10px;
     border: 2px solid;
-}
-.updates-links{
-flex-direction: row;
-
-}
-.updates-links a{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-  .match-blogs{
-    grid-template-columns: repeat(2,1fr);
   }
-  .transfer-time { 
-    margin-top: 0;
-}
-.transfer-hide{
-    display: none;
-}
+  .updates-links {
+    flex-direction: row;
+  }
+  .updates-links a {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
-  
+  .match-blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-article {
+    padding: 1% 3%;
+  }
+  .transfer-time {
+    margin-top: 0;
+  }
+  .transfer-hide {
+    display: none;
+  }
 }

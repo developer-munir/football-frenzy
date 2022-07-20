@@ -19,6 +19,9 @@
     height: 500px;
     margin-top: 20px;
   }
+  .blog-article {
+    padding: 2% 3%;
+}
   .transfer-time{
     margin-top: 0;
   }
