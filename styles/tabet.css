@@ -34,7 +34,11 @@
   .transfer-hide {
     display: none;
   }
-  .view-all-btn{
+  .view-all-btn {
     display: inline;
+  }
+  .admin-links ul,
+  .admin-social-links ul {
+    flex-wrap: wrap;
   }
 }

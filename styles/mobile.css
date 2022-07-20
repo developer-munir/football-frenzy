@@ -36,4 +36,7 @@
   .transfer-time{
     margin-top: 0;
   }
+  .admin-links ul{
+    flex-direction: column;
+}
 }
