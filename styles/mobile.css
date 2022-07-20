@@ -1,0 +1,9 @@
+@media only screen and (max-width:688px) {
+    /* header section-------------------------------------------------- */
+    .live-match{
+        flex-direction: column;
+    }
+    .live-match-links{
+        text-align: center;
+    }
+}

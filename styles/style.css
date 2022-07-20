@@ -1,7 +1,109 @@
 /* google fonts-------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Poppins&display=swap');
 
-/* font-family: 'Edu VIC WA NT Beginner', cursive;
-font-family: 'Poppins', sans-serif; */
 
 /* common styles-------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 1280px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+/* header styles---------------------------------------------------------- */
+.header{
+    padding: 3% 5%;
+}
+.live-match{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.live-match-links,
+.live-match-thumbnail{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.live-match-links h1{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.live-match-links p{
+    font-size: 1em;
+    font-weight: 400;
+}
+.live-match-thumbnail img{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+/* main section styles-------------------------------------------------- */
+.main-section{
+    padding: 3% 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.match-news{
+    background-color: black;
+    padding: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 312px;
+}
+.match-news a{
+    color:  #161616;
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    padding: 5px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.blog a{
+    background: linear-gradient(rgb(253, 252, 252),rgb(29, 146, 111)) ;
+}
+.blogs{
+    height: 362px;
+    width: 312px;
+    border: 2px solid;
+}
+.blog-thumbnail img{
+    width: 100%;
+}
+.blog-article{
+    padding: 2%;
+}
+.transfer-time{
+    display: flex;
+}
+.time{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.time p{
+    padding-left: 5%;
+}
+.massage{
+    padding-left: 5%;
+}
