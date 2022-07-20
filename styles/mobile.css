@@ -22,6 +22,7 @@
   .match-news {
     width: 100%;
     background-color: #ffffff;
+    height: 50%;
   }
   .match-news-btn{
     border: 2px solid rgb(195, 187, 187);
@@ -45,4 +46,5 @@
 .admin-contact h2{
     font-size: 20px;
 }
+
 }
