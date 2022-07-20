@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0 auto;
+  overflow-x:hidden ;
 }
 /* header styles---------------------------------------------------------- */
 .header{
@@ -54,8 +55,6 @@ body {
 .main-section{
     padding: 3% 5%;
     display: flex;
-    /* justify-content: space-between; */
-    
 }
 .match-news{
     background-color: black;
@@ -82,16 +81,23 @@ body {
 .blog a{
     background: linear-gradient(rgb(253, 252, 252),rgb(29, 146, 111)) ;
 }
+.match-blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2em;
+    padding: 0 1% 0 1%;
+}
 .blogs{
     height: 362px;
-    width: 312px;
-    border: 2px solid;
+    width: 100%;
+    border: 1px solid rgba(193, 190, 190, 0.818);
+    border-radius:10px ;
 }
 .blog-thumbnail img{
     width: 100%;
 }
 .blog-article{
-    padding: 2%;
+    padding: 10% 3%;
 }
 .transfer-time{
     display: flex;
