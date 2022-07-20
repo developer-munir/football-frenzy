@@ -7,11 +7,14 @@
     text-align: center;
   }
   .live-match-links h1 {
-    font-size: 1.8em;
+    font-size: 1.2em;
 }
 .live-match-links p {
-    font-size: 14px;
-    margin-top: 2em;
+    font-size: 10px;
+    margin-top: 1em;
+}
+.live-btn a{
+    font-size: 1em;
 }
   .main-section {
     flex-direction: column;
@@ -38,5 +41,8 @@
   }
   .admin-links ul{
     flex-direction: column;
+}
+.admin-contact h2{
+    font-size: 20px;
 }
 }
