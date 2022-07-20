@@ -9,4 +9,7 @@
     .main-section{
         flex-direction: column;
     }
+    .match-news{
+        width: 100%;
+    }
 }
