@@ -18,6 +18,10 @@
   }
   .match-news {
     width: 100%;
+    background-color: #ffffff;
+  }
+  .match-news-btn{
+    border: 2px solid rgb(195, 187, 187);
   }
   .match-blogs {
     grid-template-columns: repeat(1, 1fr);

@@ -34,4 +34,7 @@
   .transfer-hide {
     display: none;
   }
+  .view-all-btn{
+    display: inline;
+  }
 }
