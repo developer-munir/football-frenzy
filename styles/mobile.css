@@ -6,6 +6,13 @@
   .live-match-links {
     text-align: center;
   }
+  .live-match-links h1 {
+    font-size: 1.8em;
+}
+.live-match-links p {
+    font-size: 14px;
+    margin-top: 2em;
+}
   .main-section {
     flex-direction: column;
   }
