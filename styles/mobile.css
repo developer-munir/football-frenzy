@@ -6,4 +6,7 @@
     .live-match-links{
         text-align: center;
     }
+    .main-section{
+        flex-direction: column;
+    }
 }

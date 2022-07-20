@@ -1,3 +1,26 @@
-@media only screen and (min-width:689px) and (max-width:992px) {
-    
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .main-section {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .match-news {
+    background-color: #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .match-news a {
+    padding: 10px;
+    border: 2px solid;
+}
+  .match-blogs{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .transfer-time { 
+    margin-top: 0;
+}
+.transfer-hide{
+    display: none;
+}
+
+  
 }

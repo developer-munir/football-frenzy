@@ -99,8 +99,20 @@ body {
 .blog-article{
     padding: 10% 3%;
 }
+.transfer-link a{
+    color: #161616;
+    text-decoration: none;
+    border: 1px solid #6a6262b8;
+    padding: 0 5%;
+}
+.transfer-link p{
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 5%;
+}
 .transfer-time{
     display: flex;
+    margin-top: 20%;
 }
 .time{
     display: flex;
@@ -109,7 +121,11 @@ body {
 }
 .time p{
     padding-left: 5%;
+    color: #887979e4;
 }
 .massage{
     padding-left: 5%;
+}
+.view-all-btn{
+    display: ;
 }
