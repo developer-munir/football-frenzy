@@ -1,4 +1,4 @@
-
+/* page-2 css--------------------------------------- */
 .blogs{
     padding: 5%;
 }
@@ -21,4 +21,23 @@
 .team-name h6{
     font-size: 1em;
     text-align: center;
+}
+.upcoming-btn{
+     background: linear-gradient(rgba(224, 212, 212, 0.776), rgb(29, 146, 111));
+}
+.blog-btn{
+    background: #ffffff;
+}
+.blog-btn:hover{
+    background-color: #ffffff;
+    color: #161616;
+    border: none;
+}
+@media screen and (max-width:992px) {
+    .upcoming-btn {
+        border:none !important;
+    }
+    .blog-btn{
+        border: 2px solid rgb(195, 187, 187);
+    }
 }
