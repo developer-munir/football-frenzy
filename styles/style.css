@@ -40,10 +40,23 @@ body {
 .live-match-links h1 {
   font-size: 2.5em;
   font-weight: 700;
+  transform: translateY(-100px);
+  animation: textup 10s linear infinite;
 }
+
 .live-match-links p {
   font-size: 1em;
   font-weight: 400;
+  transform: translateY(-100px);
+  animation: textup 10s linear infinite;
+}
+@keyframes textup {
+  10% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .live-match-thumbnail img {
   width: 100%;
@@ -68,21 +81,35 @@ body {
   color: #161616;
   margin: 0 5px;
 }
-.live-btn:hover{
+.live-btn:hover {
   background: transparent;
   color: #ffffff;
   border: 1px solid #ffffff;
 }
-.live-btn:hover a{
+.live-btn:hover a {
   color: #ffffff;
 }
-.arrow-right{
-  transition: transform 1s ease-in-out 1s;
+.live-btn:hover .arrow-right{
+  transform: translate(0);
+   animation: right-arrow 1s linear .5s 1;
 }
-.arrow-right:hover{
-  transform: translate(50px);
+@keyframes right-arrow {
+  10% {
+    transform: translate(12px);
+  }
+  25% {
+    transform: translate(24px);
+  }
+  50% {
+    transform: translate(36px);
+  }
+  75% {
+    transform: translate(50px);
+  }
+  100% {
+    transform: translate(0);
+  }
 }
-
 
 /* main section styles-------------------------------------------------- */
 .main-section {
@@ -115,7 +142,7 @@ body {
 .blog {
   background: linear-gradient(rgb(253, 252, 252), rgb(29, 146, 111));
 }
-.blog:hover{
+.blog:hover {
   background: transparent;
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -150,7 +177,6 @@ body {
 }
 .transfer-time {
   display: flex;
-  
 }
 .time {
   display: flex;
@@ -211,14 +237,14 @@ hr {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-.admin-social-links a{
-    border: 1px solid #ffffff;
-    padding: 10% 20%;
-    border-radius:50% ;
-    text-align: center;
-    background-color: #ffffff;
-    margin:20px 20px;
-    display: inline-block;
+.admin-social-links a {
+  border: 1px solid #ffffff;
+  padding: 10% 20%;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px 20px;
+  display: inline-block;
 }
 .fa-facebook {
   color: #4267b2;
