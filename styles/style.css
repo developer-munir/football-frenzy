@@ -258,7 +258,7 @@ hr {
 }
 .admin-social-links a:hover{
   background-color: transparent;
-  border: 2px solid #0f9d58;
+  border: 1px solid #0f9d58;
 }
 .fa-facebook {
   color: #4267b2;
